@@ -54,7 +54,6 @@ void Graph::createGraph(int edges[][2], int edge_size){
 
         if(u < vertices && v < vertices){
             matrix[u][v] = 1;
-            matrix[v][u] = 1;
         }
     }
 
